@@ -1,6 +1,6 @@
 $filePath = "$env:USERPROFILE\Desktop\test_encrypted.hh2025"
 $outputPath = "$env:USERPROFILE\Desktop\test_decrypted.txt"
-$key = "<êëþ÷_èç_RANSOM_INFO.txt>"
+$key = "<ÐºÐ»ÑŽÑ‡_Ð¸Ð·_RANSOM_INFO.txt>"
 
 if (Test-Path $filePath) {
   $combined = [System.IO.File]::ReadAllBytes($filePath)
